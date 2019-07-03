@@ -4,6 +4,7 @@ role :app, %w{deployer@51.15.67.2}
 role :web, %w{deployer@51.15.67.2}
 
 set :stage, :production
+set :rails_env, :production
 
  set :ssh_options, {
   keys: %w(/home/muxa/.ssh/ror_rsa),
