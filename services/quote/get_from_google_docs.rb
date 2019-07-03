@@ -10,7 +10,6 @@ class Quote::GetFromGoogleDocs < Service
   TOKEN_PATH = "token.yaml".freeze
   SCOPE = Google::Apis::DocsV1::AUTH_DOCUMENTS_READONLY
 
-
   def call
     document_to_file
   end
