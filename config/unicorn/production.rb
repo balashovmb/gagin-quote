@@ -2,7 +2,7 @@
 # note the trailing slash in this example
 @dir = "/home/deployer/gagin-quote"
 worker_processes 2
-working_directory @dir
+working_directory "#{@dir}/current"
 
 timeout 30
 
