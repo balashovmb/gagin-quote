@@ -18,11 +18,10 @@ set :deploy_to, "/home/deployer/gagin-quote"
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
 # Default value for :linked_files is []
-append :linked_files,  ".env", "token.yaml", "credentials.json", "quotes.txt"
+append :linked_files, ".env", "token.yaml", "credentials.json", "quotes.txt"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/sockets"
-
 
 namespace :deploy do
 

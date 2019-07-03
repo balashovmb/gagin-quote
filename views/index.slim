@@ -1,4 +1,8 @@
+css class="quote":
+  body { color: #{@quote['color']}; }
+
 .container
   .center
     .quote
-      = @quote
+      = @quote['text']
+
