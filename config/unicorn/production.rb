@@ -11,7 +11,7 @@ timeout 30
 listen "#{@dir}/shared/tmp/sockets/unicorn-gq.sock", :backlog => 64
 
 # Set process id path
-pid "#{@dir}/current/tmp/pids/unicorn.pid"
+pid "#{@dir}/shared/tmp/pids/unicorn.pid"
 
 # Set log file paths
 stderr_path "#{@dir}/shared/log/unicorn.stderr.log"

@@ -2,3 +2,4 @@ quotes.txt
 credentials.json
 token.yaml
 .env
+/log/*
