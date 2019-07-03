@@ -2,7 +2,7 @@ class Quote
   class << self
     def random_quote
       quotes_length = quotes.length
-      random_number = rand(quotes_length)
+      random_number = rand(quotes_length - 6) + 6
       quote_with_color(quotes[random_number])
     end
 
